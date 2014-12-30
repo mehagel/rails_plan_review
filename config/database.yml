@@ -51,10 +51,10 @@ development:
 #   username: markh
 #   password: 'password'
 
-# production:
-#   adapter: postgresql
-#   encoding: unicode
-#   database: rails_plans_production
-#   pool: 5
-#   username: markh
-#   password: 'password'
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_plans_production
+  pool: 5
+  username: markh
+  password: 'password'
