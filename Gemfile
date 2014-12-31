@@ -16,11 +16,6 @@ gem 'pry'
 gem 'rake'
 # gem 'sidekiq'
 
-group :test do
-  gem 'faker'
-  gem 'rspec'
-end
-
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

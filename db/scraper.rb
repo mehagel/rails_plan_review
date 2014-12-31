@@ -1,3 +1,10 @@
+require 'rake'
+require 'Nokogiri'
+require 'open-uri'
+require ::File.expand_path('../config/environment', __FILE__)
+require 'active_support/core_ext'
+
+
 class MyScraper
 
   def get(url)
